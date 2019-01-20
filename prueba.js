@@ -27,7 +27,7 @@ switch (operacion) {
     default:document.write('falta un dato');
     }
     if (typeof(resultado) !='undefined') {
-        document.write(resultado);
+        document.write(numero1 + operacion + numero2, ' = ',resultado);
     } else {
         document.write('Ingrese un numero');
     }
